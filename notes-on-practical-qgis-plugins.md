@@ -69,6 +69,43 @@ It means having clear answers to questions such as:
 Without this point of view, a plugin can become a collection of functions.
 It may be powerful, but it may not guide the user toward meaningful work.
 
+## AI Support Does Not Remove Responsibility
+
+I use AI as an implementation assistant, but I do not treat generated code as
+finished work by default.
+
+When AI helps with implementation, the role of the human designer becomes more
+important, not less important. The designer must define the purpose of the tool,
+watch the direction of the implementation, review the behavior, and check
+whether the result still fits the actual workflow.
+
+Some defects are visible immediately: errors, broken dialogs, failed processing,
+or incorrect outputs. Other defects are quieter. They may appear in edge cases,
+file names, paths, operating systems, old data, unclear defaults, or changes
+that affect existing user habits.
+
+AI support can also create a misleading sense of capability.
+Because AI can quickly produce code, explanations, screenshots, documents, and
+polished wording, it may become easy to feel that the work is more complete than
+it really is. If the process is not carefully controlled, what remains may be a
+set of attractive documents and interfaces rather than a reliable tool.
+
+For that reason, I try to manage the development process carefully:
+
+- keep changes small and reviewable
+- separate design intent from implementation detail
+- check behavior against real use cases
+- distinguish confirmed problems from possible risks
+- avoid changing unrelated behavior
+- test not only whether code runs, but whether the workflow still makes sense
+
+A beautiful document is not a substitute for a working process.
+A polished interface is not a substitute for a reliable workflow.
+
+AI can be useful for building tools, but it does not remove the need for
+responsibility. A practical plugin still needs human judgment, careful review,
+and attention to defects that are not obvious at first glance.
+
 ## Prefer Useful Endpoints
 
 For forestry-related tools, I am especially interested in outputs that connect
