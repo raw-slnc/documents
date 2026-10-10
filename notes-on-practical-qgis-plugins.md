@@ -25,6 +25,16 @@ but rather:
 
 A plugin becomes more useful when it connects data to a workflow.
 
+## Reflecting Field Knowledge in Tools
+
+My team works in forestry, including tending operations and specialized
+high-place tree work. I want to feed the team's knowledge and experience back
+into QGIS plugins, so that the tools reflect the judgment of skilled workers
+rather than merely displaying data.
+
+The aim is not simply to show data on a map, but to build tools that carry some
+of the intent, attention, and practical sense used in real forestry work.
+
 ## Small Details Are Part of the Design
 
 In local practical work, small details are not minor.
