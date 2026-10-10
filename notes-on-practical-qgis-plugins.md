@@ -82,8 +82,10 @@ It may be powerful, but it may not guide the user toward meaningful work.
 ## AI Support Does Not Remove Responsibility
 
 I approach plugin development primarily from a design and workflow perspective.
-While I can follow code and understand much of what the software is doing, my
-main focus is on intent, process, usability, review, and practical outcomes.
+While I can follow code and understand much of what the software is doing, I am
+not primarily a syntax-level reviewer. My main focus is on intent, process,
+usability, practical outcomes, and verification through tests, observed behavior,
+diffs, outputs, and workflow checks.
 
 I use AI as an implementation assistant, but I do not treat generated code as
 finished work by default.
