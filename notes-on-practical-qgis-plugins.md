@@ -79,6 +79,23 @@ It means having clear answers to questions such as:
 Without this point of view, a plugin can become a collection of functions.
 It may be powerful, but it may not guide the user toward meaningful work.
 
+## Some Outputs Require Field Verification
+
+Not all plugin outputs have the same meaning.
+
+For example, coloring terrain classes on a map is different from detecting tree
+tops from a CHM and estimating the number of trees. In the latter case, changing
+parameters may not simply improve accuracy. It may change what is detected as a
+tree in the first place.
+
+Such results should be treated carefully. They need comparison with field
+observations, known data, or other evidence before they are used as facts.
+
+If this kind of output is not connected to a clear decision or workflow, it may
+only add confirmation work for people in the field. A tool should make this
+uncertainty visible when the output depends heavily on assumptions, thresholds,
+or detection settings.
+
 ## AI Support Does Not Remove Responsibility
 
 I approach plugin development primarily from a design and workflow perspective.
