@@ -165,3 +165,7 @@ My preference is for QGIS plugins that are modest, reliable, and considerate
 of the work surrounding them. Open data and analysis methods matter, but they
 become more valuable when they are connected to a clear task, a usable output,
 and the practical constraints of the people who use them.
+
+The companion note [Sharing Knowledge and Supporting Agency in Field Work](sharing-knowledge-and-agency.md)
+develops the philosophy behind sharing specialist knowledge and supporting
+the people who use these tools, in Japanese and English.
