@@ -54,6 +54,10 @@ AIによって解析の実装や実行が容易になるほど、計算や出力
 情報の提供と引き換えに、現場の知識や資産の価値が外へ移り、現場に十分な力が返らない。
 開発は、そのように一方向に価値が流れる構造を持ち得ます。FOSSという形式だけでは防げません。
 
+対価を伴う関係そのものを否定するものではありません。
+知識のすべてを文書やツールで渡しきれるとは限らず、専門家が対価を得て利用者を支えることにも意味があります。
+その支援が利用者の理解や判断の力を育てるものであれば、この考え方と矛盾しないと考えています。
+
 現場から得た知識を、現場自身が理解し、検証し、選択できる力として返していく。
 私は、それを開発の方向を確かめる基準にしたいと考えています。
 
@@ -131,6 +135,11 @@ relationship becomes one-sided. The value of local knowledge and assets can
 move outward while practitioners receive little ability to act independently.
 Development can reproduce this extractive structure. A FOSS license alone
 does not prevent it.
+
+This is not an objection to paid relationships as such. Documents and tools
+cannot always convey everything, and paid support from specialists has real
+value. When that support helps users build their own understanding and
+judgment, it is consistent with what I describe here.
 
 I want knowledge gained from the field to return as a greater ability for
 practitioners to understand, verify, and choose. That is a standard by which
